@@ -1,6 +1,7 @@
-build/
+/build/
 *.o
 *.exe
 *.bin
 *.csv
 *.log
+/data/
