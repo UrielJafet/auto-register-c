@@ -1,4 +1,4 @@
-#include "autos.h"
+#include "../include/autos.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
