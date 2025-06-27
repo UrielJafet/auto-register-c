@@ -24,6 +24,6 @@ void save_info(const char* filename);
 void mostrar_registro(const char* filename);
 void eliminar_archivo_completo(const char* filename);
 int modificar_registro(const char* filename);
-void clear();
+
 
 #endif // AUTOS_H

@@ -287,6 +287,3 @@ void eliminar_archivo_completo(const char* filename) { // funcion para eliminar 
     getchar();
 }
 
-void clear() {
-    system("cls"); // Para limpiar la consola en Windows
-}
