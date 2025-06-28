@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <windows.h>
 #include <string.h>
-#include "../include/autos.h"
-#include "../include/utils.h"
+#include "autos.h"
+#include "utils.h"
 
 
 

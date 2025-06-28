@@ -1,5 +1,5 @@
 
-#include "../include/utils.h"
+#include "utils.h"
 #include <stdio.h>
 #include <string.h>
 #include <windows.h>
@@ -18,5 +18,9 @@ void pausar() {
 
 //Limpia pantalla
 void clear() {
-    system("cls"); // Para limpiar la consola en Windows
+    #ifdef _WIN32
+        system("cls");
+    #else
+        system("clear");
+    #endif // Para limpiar la consola en Windows
 }
